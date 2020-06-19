@@ -1,17 +1,25 @@
 list1= [12,-7,5,64,-14]
 
-for i in list1:
+for output in list1:
 
- if i>=0:
+ if output>=0:
    
-  print(i, end= " ")
+  print(output, end= " ")
 
 Output= 12,5,64
 
 list2= [12,14,-95,3]
 
-for j in list2:
+for i in list2:
  
-  if j>=0:
+  if i>=0:
 
-   print(j, end= " ")
+   print(i, end= " ")
+   
+   print( " is positive number")
+   
+
+
+12 is positive number
+14 is positive number
+3  is positive number
